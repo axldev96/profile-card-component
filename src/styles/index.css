@@ -80,21 +80,28 @@ body {
 
 .social-stats-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
+  justify-content: center;
+  margin: 2rem auto 0 auto;
   padding: 2rem;
+  width: 90%;
+  border-top: 1px solid var(--dark-gray);
 }
 
 .social-stats-list li {
+  display: inline-block;
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0.5rem;
+  border-right: 1px solid var(--dark-grayish-blue);
+  text-align: center;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.social-stats-list li:last-of-type {
+  border: none;
 }
 
 .social-stats-list li span {
   font-size: 1.2rem;
   color: var(--dark-gray);
+  display: block;
 }
