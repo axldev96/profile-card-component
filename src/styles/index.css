@@ -81,10 +81,10 @@ body {
 .social-stats-list {
   display: flex;
   justify-content: center;
-  margin: 2rem auto 0 auto;
+  margin: 3rem auto 0 auto;
   padding: 2rem;
-  width: 90%;
-  border-top: 1px solid var(--dark-gray);
+  width: 80%;
+  border-top: 0.01px solid var(--dark-gray);
 }
 
 .social-stats-list li {
